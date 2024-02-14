@@ -1,4 +1,40 @@
 * {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: wheat;
+}
+.App {
+  text-align: center;
+  margin-top: 1em;
+}
+.form {
+  border: 1px solid #eee;
+  border-radius: 5px;
+  margin: 0 auto;
+  padding: 1em;
+  width: 30%;
+}
+.form input {
+  margin: .5em 0;
+  padding: .5em;
+  width: 100%;
+}
+.edit {
+  background-color: rgb(107, 189, 226);
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+  margin: .5em;
+  padding: 1em 1.5em;
+}
+.delete {
+  background-color: rgb(233, 12, 41);
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+  margin: .5em;
+  padding: 1em;
 }
