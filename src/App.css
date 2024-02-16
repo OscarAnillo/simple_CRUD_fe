@@ -1,4 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Protest+Revolution&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Protest+Revolution&display=swap');
 * {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: rgba(204, 143, 181, 0.452);
+}
+.App {
+  font-family: "Montserrat", sans-serif;
+  text-align: center;
+  margin-top: 1em;
+}
+.form {
+  border: 1px solid #eee;
+  border-radius: 5px;
+  margin: 1em auto;
+  padding: 1em;
+  width: 100%;
+}
+.form input {
+  border: none;
+  border-radius: 5px;
+  font-family: "Montserrat", sans-serif;
+  margin: .5em 0;
+  outline: none;
+  padding: .5em;
+  width: 100%;
+}
+.form input::placeholder {
+  color: #8a8989;
+  letter-spacing: 1px;
+}
+.form .btn {
+  background: linear-gradient(to bottom, #f477ff, #000000);
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+  font-family: "Montserrat", sans-serif;
+  margin: .5em 0;
+  padding: 1em 1.5em;
+  text-transform: uppercase;
+}
+.edit {
+  background-color: rgb(107, 189, 226);
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+  font-family: "Montserrat", sans-serif;
+  margin: .5em;
+  padding: 1em 1.5em;
+}
+.delete {
+  background-color: rgb(233, 12, 41);
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+  font-family: "Montserrat", sans-serif;
+  margin: .5em;
+  padding: 1em;
+}
+.ul {
+  font-family: "Protest Revolution", sans-serif;
+  font-size: 1.20rem;
+  font-weight: 400;
+  font-style: normal; 
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column;
+  list-style: none;
+}
+.ul li {
+  width: 90%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+@media(min-width: 760px) {
+  .form {
+    max-width: 600px;
+  }
+  .ul {
+    font-size: 1.5rem;
+  }
+  .ul li {
+    width: 30%;
+    justify-content: center;
+  }
 }
